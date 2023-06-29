@@ -87,9 +87,9 @@ contract CounterTest is Test {
         VisualsAuction.Auction memory auction;
          auction = visualsAuction.getAuctionByID(auctionID);
 
-        //  console.log("CONTRACT ADDRESS: ", address(visualsAuction)); 
+        // console.log("CONTRACT ADDRESS: ", address(visualsAuction)); 
         // console.log("Now.--.---.----------", auction.visualIds[2][0]);
-        //  console.log("Now.--.---.----------", auction.aminalIdOne);
+        // console.log("Now.--.---.----------", auction.aminalIdOne);
         // console.log("displaying visuals for auction id = ", auctionID);
 
         for(uint i=0; i<8; i++) {
